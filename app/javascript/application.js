@@ -6,4 +6,8 @@ import 'bootstrap';
 require("jquery")
 
 window.jQuery = $;
-window.$ = $;
+// application.js
+require("trix")
+require("@rails/actiontext")
+
+

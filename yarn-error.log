@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/bin/node /usr/local/bin/yarn add @fortawesome/fontawesome-free
+  /usr/bin/node /usr/local/bin/yarn add @rails/actiontext trix
 
 PATH: 
-  /home/mohammad/.rbenv/shims:/home/mohammad/.rbenv/bin:/home/mohammad/.rbenv/bin:/home/mohammad/.rbenv/bin:/home/mohammad/.rbenv/shims:/home/mohammad/.rbenv/bin:/home/mohammad/.rbenv/bin:/home/mohammad/.rbenv/shims:/home/mohammad/.rbenv/bin:/home/mohammad/.rbenv/bin:/home/mohammad/.rbenv/bin:/home/mohammad/.rbenv/shims:/home/mohammad/.rbenv/bin:/home/mohammad/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+  /home/mohammad/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/bin:/home/mohammad/.rbenv/versions/3.0.2/bin:/home/mohammad/.rbenv/libexec:/home/mohammad/.rbenv/plugins/ruby-build/bin:/home/mohammad/.rbenv/shims:/home/mohammad/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
 Yarn version: 
   1.22.19
