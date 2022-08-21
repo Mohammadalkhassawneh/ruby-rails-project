@@ -15,9 +15,13 @@
             = link_to courses_path, class: 'nav-link' do 
               .fa.fa-book 
               Courses
-      %form.d-flex{:role => "search"}
-        %input.form-control.me-2{"aria-label" => "Search", :placeholder => "Search", :type => "search"}/
-        %button.btn.btn-outline-success{:type => "submit"} Search
+      %form.d-flex
+        = form_tag(courses_path, method: :get) do
+          .input-group
+            = text_field_tag :title, params[:title], autocomplete: 'off', placeholder: "Search", class: 'form-control-sm'
+            %span.input-group-append
+              %button.btn.btn-primary.btn-sm{:type => "submit"}
+                Search
       - if current_user
         = current_user.email
         %button.btn.btn-warning

@@ -73,11 +73,12 @@ end
 gem 'bootstrap', '~> 5.2.0'
 
 gem "jsbundling-rails", "~> 1.0"
-gem "font-awesome-sass", "~> 6.1.2"
+gem "font_awesome5_rails"
 gem "haml-rails", "~> 2.0"
 gem 'simple_form'
 gem 'coffee-script-source', '1.8.0' 
 gem 'jquery-rails'
 gem 'faker'
 gem 'devise'
+gem 'friendly_id', '~> 5.4.0'
 
